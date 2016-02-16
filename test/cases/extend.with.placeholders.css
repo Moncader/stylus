@@ -48,9 +48,11 @@ a.error:hover {
 #thing .blurg {
   display: none;
 }
-#thing .blurg,
-#thing .goomba {
-  visibility: hidden;
+@media only screen {
+  #thing .blurg,
+  #thing .goomba {
+    visibility: hidden;
+  }
 }
 .foo,
 .bar {
